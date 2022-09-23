@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="normalize.css" type="text/css" />
+    <title>Крайнов Кирилл</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <h1 class="header-logo">Крайнов К. А.</h1>
+            <nav class="header-nav">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="#picture" class="navigation-link">Картинка</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#table" class="navigation-link">Прогноз погоды</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#contacts" class="navigation-link">Контакты</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#footer-text" class="navigation-link">Форма обратной связи</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="form.html" class="navigation-link">Регистрация</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about-me">
+            <a id="picture"></a>
+            <div class="about-me-wrapper">
+                <h2 class="section-heading">Картинка</h2>
+                    <img class="tree" src="images/картинка.jpeg" alt="Дерево">
+            </div>
+        </section>
+        <section class="skills">
+            <a id="table"></a>
+            <div class="skills-wrapper">
+                <h2 class="section-heading">Прогноз погоды</h2>
+                <table class="table">
+                    <tr>
+                     <th class="table">23 сентября</th>
+                     <th class="table">24 сентября</th>
+                     <th class="table">25 сентября</th>
+                     <th class="table">26 сентября</th>
+                     <th class="table">27 сентября</th>
+                    </tr>
+                    <tr>
+                     <td class="table">14 градусов</td>
+                     <td class="table">10 градусов</td>
+                     <td class="table">9 градусов</td>
+                     <td class="table">11 градусов</td>
+                     <td class="table">13 градусов</td>
+                   </tr>
+                  </table>
+            </div>
+        </section>
+        <section class="contacts">
+            <a id="contacts"></a>
+            <div class="contacts-wrapper">
+                <h2 class="contacts-heading">Контакты</h2>
+                <p class="contact">Telegramm | WhatsApp: +7 987 654 32 10</p>
+                <p class="contact">Email: kirilldrakon03@mail.ru <span class="preferred"></span></p>
+                <p class="contact"><a class="contact-link" href="https://github.com/Kirill584">GitHub</a></p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a id="footer-text"></a>
+        <div class="footer-wrapper">
+            <p class="footer-text">Форма обратной связи</p>
+            <form class="footer-form" action="#" method="post">
+                <fieldset class="form-fieldset">
+                    <label>ФИО<input class="form-input" type="text" name="text-field" placeholder="Ваше ФИО" required></label>
+                    <label>Email<input class="form-input" type="email" name="text-field" placeholder="Ваш email" required></label>
+                    <label>Источник информации<input class="form-input" type="text" name="text-field" placeholder="Откуда узнали о нас" required></label>
+                    <label>Тип обращения<input class="form-input" type="text" name="tel" placeholder="Жалоба/предложение" required></label>
+                    <label>Текст<input class="form-input" type="text" name="tel" placeholder="Введите текст" required></label>
+                    <label>Файл<input class="form-input" type="file" name="tel" placeholder="Жалоба/предложение" required></label>
+                    <label><span class="checkbox-wrapper"><input class="form-checkbox" type="checkbox" name="checked" value="1">Даю согласие на обработку персональных данных</label></span>
+                    <input class="submit" type="submit" value="Отправить">
+                </fieldset>
+            </form>
+            <p class="name-group-date">Крайнов Кирилл Алексеевич | 211-361 | 23.09.2022</p>
+        </div>
+    </footer>
+</body>
+</html>
