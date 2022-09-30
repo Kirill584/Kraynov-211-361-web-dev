@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="normalize.css" type="text/css" />
+    <title>Крайнов Кирилл</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <h1 class="header-logo">Крайнов К. А.</h1>
+            <nav class="header-nav">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a href="index.html" class="navigation-link">На главную</a>
+                    </li>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="form-wrapper">
+            <form class="footer-form" action="https://httpbin.org/post" method="POST">
+                <fieldset class="form-fieldsett">
+                    <label>Логин<input class="form-inputt" type="text" name="text-field" placeholder="Логин" required></label>
+                    <label>Пароль<input class="form-inputt" type="password" name="text-field" placeholder="Пароль" required></label>
+                    <label><span class="checkbox-wrapper"><input class="form-checkbox" type="checkbox" name="checked" value="1">Запомнить меня</label></span>
+                    <input class="submit" type="submit" value="Зарегистрироваться">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <a id="footer-text"></a>
+        <div class="footer-wrapper">
+            <p class="name-group-date">Крайнов Кирилл Алексеевич | 211-361 | 23.09.2022</p>
+        </div>
+    </footer>
+</body>
+</html>
