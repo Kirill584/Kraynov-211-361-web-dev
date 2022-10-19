@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --black: #191A19;
+    --gray: #1e1f1e;
+    --dark-green: #1E5128;
+    --green: #4E9F3D;
+    --milk: #D8E9A8;
+    --yellow: #ebdb00;
+    --red: #8a0000;
+}
+
+h2 {
+    text-align: center;
+    color: #4E9F3D;
+    font-size: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: #4E9F3D;
+    font-size: 20px;
+}
+
+p {
+    color: #1E5128;
+}
+
+.header {
+    background-color:#191A19;
+    color: #4E9F3D;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo {
+    color: #4E9F3D;
+    font-size: 60px;
+    margin-top: 15px;
+}
+
+.navigation-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation-item {
+    padding-right: 20px;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: #1E5128;
+}
+
+.navigation-link:hover {
+    color: #D8E9A8;
+}
+
+.picture {
+    background-color: #1e1f1e;
+}
+
+.picture1 {
+    padding: 35px 0;
+}
+
+
+
+.tree {
+    margin: 20px auto;
+    display: block;
+    width: 550px;
+}
+
+.lifehak {
+    background-color:#191A19;
+}
+
+.weather {
+    padding: 35px 0;
+    
+}
+
+
+.table{
+    border: #1E5128 solid 1px;
+    color: #1E5128;
+    margin: 20px auto;
+}
+
+.language_icon {
+    width: 100px;
+    margin: 10px 20px;
+}
+
+
+.start {
+    color:#8a0000;
+}
+
+.middle {
+    color: #ebdb00;
+}
+
+.contacts {
+    background-color: #1e1f1e;
+    height: 1000px;
+}
+
+.contacts-heading {
+    text-align: left;
+    padding: 0px;
+}
+
+.contacts-wrapper {
+    padding: 35px;
+}
+ 
+.mail {
+    color:#4E9F3D;
+}
+
+.contact-link {
+    text-decoration: none;
+    color:#D8E9A8;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #191A19;
+    height: 1000px;
+}
+
+.footer-wrapper {
+    padding: 35px;
+    height: 1000px;
+}
+
+.form-fieldset {
+    border: #D8E9A8 solid;
+    background-color: #1e1f1e;
+    color:#1E5128;
+}
+
+.form-input {
+    background-color:#191A19;
+    border: 0;
+    margin: 10px 20px;
+    color:#D8E9A8;
+}
+
+.form-checkbox {
+    margin: 10px;
+    background-color:#D8E9A8;
+}
+
+.submit {
+    margin: 10px;
+    text-decoration: none;
+    background-color: #1e1f1e;
+    color: #1E5128;
+    border: #191A19 solid;
+    padding: 7px;
+}
+
+.submit:hover {
+    color: #D8E9A8;
+    background-color: #191A19;
+}
+
+.form-wrapper{
+    background-image: url(../images/фон.jpg);
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 300px;
+}
+
+.form-inputt {
+    background-color:#191A19;
+    border: 0;
+    margin: 10px 20px;
+    color:#D8E9A8;
+}
+
+.form-fieldsett {
+    border: #D8E9A8 solid;
+    background-color: #1e1f1e;
+    color:#1E5128;
+}
+
+.sun{
+    width: 100px;
+    margin: 0px 610px;
+}
+
+.lifehak{
+    color: #1E5128;
+}
+
+.difpicture{
+    width: 120px;
+    margin: 0px 0px;
+}
+
+.asd{
+    color: #1E5128;
+    margin: 0px 590px;
+    margin-top: 10px;
+}
+
+.section-heading{
+    margin-bottom: 30px;
+}
